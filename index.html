@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saif - Developer Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 5, 51);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(38, 79, 49);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(173, 173, 233);
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(80, 49, 49);
+            height: 1.23px;
+            margin: 60px 74px;
+        }
+
+        .left {
+            font-size: 2.5rem;
+        }
+        .firstSection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+             margin: 30px 0;
+        }
+        .firstSection div{
+            width: 70%;
+        }
+        .firstSection > div{
+            width: 40%;
+        }
+        .leftSection{
+        font-size: 3.1rem;
+        }
+        .leftSection .btn{
+        padding: 12px;
+        background: #36818e;
+        color: white;
+        border: 2px solid white;
+        font-size: 20px;
+        cursor: pointer;
+        }
+          
+        .rightSection img{
+            width: 95%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: red;   
+        }
+        .text-gray{
+            color: purple;
+        }
+        #element{
+            color: rgb(179, 42, 42);
+        }
+        .secondSection {
+            max-width: 50px 0;
+            margin: auto;
+            height: 90vh;
+        }
+
+        .secondSection h1 {
+            margin: 0px 125px;
+            font-size: 1.9rem;
+        }
+
+        .secondSection span {
+            margin: 0px 125px;
+        }
+
+        .secondSection .box {
+            border: 0;
+            height: 1.2px;
+            margin: 5px 128px;
+            display: flex;
+        }
+
+        .secondSection .box {
+            border: 0;
+            background: white;
+            width: 200vx;
+            height: 1.4px;
+            margin: 70px 96px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 55px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 144px;
+        }
+
+        .image-top {
+            width: 28px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 35px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 40px;
+            color: rgb(169, 189, 16);
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(11, 11, 30);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 32px 144px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 180px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SAIF ALI</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">SKILLS</a></li>
+                    <li><a href="/">EDUCATION</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+             <div class="leftSection">
+                Hi! My name is <span class="purple">SAIF</span>
+                <div>I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    
+                    <button class="btn" onclick="window.open('https:drive.google.com/file/d/1X4AqQf6UkWN6FxKBcbPb38qPu4NUSBpa/view?usp=sharing')">Download Resume</button>
+                    <button class="btn"onclick="window.open('https:www.linkedin.com/in/saif-ali-03570421a')">Visit LinkedIn</button>
+                        
+                </div>
+
+             </div>
+             <div class="rightSection">
+                <img src="bg0.png" alt="">
+             </div>
+                
+             
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">I have build some</span>
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer0.png" alt="">
+                    <div class="vertical-title">
+                        NETFLIX CLONE
+                    </div>
+                    <div class="vertical-desc">
+                        Netflix clone is an on
+                        demand video streaming
+                        platform similar to Netflix.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img2.png" alt="">
+                    <div class="vertical-title">
+                        PORTFOLIO WEBSITE
+                    </div>
+                    <div class="vertical-desc">
+                        A portfolio website is a
+                        unique way to showcase your
+                        work and let others know about yourself
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img3.png" alt="">
+                    <div class="vertical-title">
+                        TO DO LIST
+                    </div>
+                    <div class="vertical-desc">
+                        It's a list of tasks you need to complete
+                        or things you want to do.
+                        Most typically, they're organised in order of priority.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img4.png" alt="">
+                    <div class="vertical-title">
+                        TIC TAC TOE
+                    </div>
+                    <div class="vertical-desc">
+                        A game played by two people, each trying to make
+                        a line of three X's or three O's in a
+                        boxlike figure with nine spaces.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Saif Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Email</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><p>Modinagar</p></li>
+                    <li>A Final Year Student</li>
+                    <li>saifaligkp700@gmial.com</li>
+                    <li>7754916206</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer rights">
+            Copyright &#169; saifportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['FRONTEND DEVELOPER', 'WEB DEVELOPER'],
+            typeSpeed: 170,
+        });
+    </script>
+</body>
+
+</html>
